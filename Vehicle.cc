@@ -18,7 +18,7 @@ int Vehicle :: getSpeed() const
     return Speed ;
 }
 
-string Vehicle:: gerPlate() const 
+string Vehicle:: getPlate() const 
 {
     return Plate ;
 }
