@@ -27,7 +27,7 @@ class Vehicle
   virtual void move() ;
   virtual void printStatus() ;
 
-  Vehicle& operator+ (int vla) ;
+  Vehicle& operator+ (int val) ;
   bool operator < (const Vehicle& other ) const ;
 
   static int getTotalVehicles() ;
